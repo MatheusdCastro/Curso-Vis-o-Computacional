@@ -1,11 +1,13 @@
-ANOTAÇÔES DAS AULAS
+    ANOTAÇÔES DAS AULAS
 
 // 
-AULA 02:
+    AULA 02:
 cv.INTER_XXX -> A CUBIC é a mais pesada;
-A linear e a cubic são usadas para alargar a imagem, o que é mais difícil doq diminuir / shrink (usa-se a area), pois para preencher os novos espaços, há perda de qualidade
-A função de threshold faz o seguinte: se um valor for abaixo de um certo limite, transforma em 0. Se for acima até um outro limite, tranforma em 1
-O canny é mais pesado, ent se quiser evitá-lo, faça uma binarização e desenhe os contornos
-LEMBRE : BGR # RGB
-A função split divide a imagem nos 3 canais de core, mas não é possível mostrar essa informação individualmente, então merge para juntar com a imagem vazia  
-O kernel do blur deve ser um número ímpar, pois é uma média dos pixels em volta do pixel central       
+    A linear e a cubic são usadas para alargar a imagem, o que é mais difícil doq diminuir / shrink (usa-se a area), pois para preencher os novos espaços, há perda de qualidade.    
+    A função de threshold faz o seguinte: se um valor for abaixo de um certo limite, transforma em 0. Se for acima até um outro limite, tranforma em 1.
+    O canny é mais pesado, ent se quiser evitá-lo, faça uma binarização e desenhe os contornos.
+    LEMBRE : BGR # RGB
+    A função split divide a imagem nos 3 canais de core, mas não é possível mostrar essa informação individualmente, então merge para juntar com a imagem vazia. 
+    O kernel do blur deve ser um número ímpar, pois é uma média dos pixels em volta do pixel central.
+    Os espaços hsv, lab e luv possuem o mesmo shape(3 dimensões, 2 de espaço e 1 de cor) da imagem original. Exceto a escala de cinza tem essa característica, tendo apenas 2 dimensões.
+    Ao realizar o canny em cada tipo de suavização, é possível observar que as melhores são a mediana e a bilateral, com um maior nível de detalhamento da bilateral.
