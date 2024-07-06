@@ -14,5 +14,10 @@ cv.INTER_XXX -> A CUBIC é a mais pesada;
 //
 //
     AULA 03:
-    Histogramas são espécies de gráficos sobre a tendência das cores de uma imagem;
-    
+    Histogramas são espécies de gráficos sobre a tendência das cores de uma imagem.
+//
+//
+    AULA 04:
+    O haar_cascade é um algoritmo pré-treinado que identifica as bordas e contrastes de rostos, placas etc;
+    A identificação de rostos é um processo binário(existe ou não um rosto ali?);
+    O reconehcimento, além de fazer a identificação, diz de quem é aquele rosto;
