@@ -21,3 +21,4 @@ cv.INTER_XXX -> A CUBIC é a mais pesada;
     O haar_cascade é um algoritmo pré-treinado que identifica as bordas e contrastes de rostos, placas etc;
     A identificação de rostos é um processo binário(existe ou não um rosto ali?);
     O reconehcimento, além de fazer a identificação, diz de quem é aquele rosto;
+    É preciso converter as listas para numpy, pois o OpenCV intrinsecamente usa o numpy, já que se imagens são matrizes;
